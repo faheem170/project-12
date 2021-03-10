@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.ul1>li{
+    font-size: 17px;
+    color: black;
+    margin-left: 10px;
+}
+.card:hover{
+    opacity: 0.7;
+
+}
+.card:hover .div>h1{ 
+    display: none;
+}
+.card:hover .div>p{ 
+    display: none;
+}
+.btncl{
+    position: relative;
+    left: 40%;
+}
+.face{
+    position: relative;
+    left: 40%;
+}
+.fou{
+    background-color: #1F85B9;
+}
+.six{
+    background-color:#1F85B9 ;
+}
+.foo{
+    background-color: teal ;
+
+}
+@media only screen and (min-width: 600px) {
+    .div>p{
+        font-size: 1.3rem;
+    }
+  }
